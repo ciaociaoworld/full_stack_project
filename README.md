@@ -36,7 +36,7 @@
 </ul>
 
 <h2>Planning</h2>
-![Wireframe](./Wireframe.png)
+![wireframe](/wireframe.png)
 <h2>Problems</h2>
 <ul>
     <li>Apply all searched information to website</li>
