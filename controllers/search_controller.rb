@@ -20,6 +20,10 @@ get '/movie_details' do
 end
 
 get '/movie_info' do
+    # How to show all information in this page. 
+    # Could see comments and like in this page.
+    # Could add this movie to personal zone.
+
     movie_name = params['movie_name'] 
     
     erb  :'/search/movie_info', locals: {

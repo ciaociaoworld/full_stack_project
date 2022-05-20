@@ -36,7 +36,7 @@
 </ul>
 
 <h2>Planning</h2>
-<img src="/Wireframe.png" alt="wireframe" style="height:300px; width:400px;"/>
+<img src="/Wireframe.png" alt="wireframe" style="height:600px; width:700px;"/>
 <h2>Problems</h2>
 <ul>
     <li>Apply all searched information to website</li>
