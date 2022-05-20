@@ -1,0 +1,29 @@
+<h1>Catch of the day</h1>
+
+<% if logged_in? %>
+    <h2>Login as<%= current_user['name'] %></h2>
+
+    
+    <form action="/sessions" method="POST">
+        <input type="hidden" name="_method" value="delete">
+
+        <button>Logout</button>
+    </form>
+    
+    <form action="/suburb">
+    <input type="text" name="suburb"> 
+    <button>Search</button>
+    </form>
+
+
+<% else %>
+    <a href="/sign_up">sign up</a>
+    <a href="/login">Login</a>
+    
+    
+    
+    
+    <form action="/suburb">
+    <input type="text" name="suburb"> 
+    <button>Search</button>
+    </form>
