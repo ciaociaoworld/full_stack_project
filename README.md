@@ -1,6 +1,6 @@
 <h1>Catch of the day</h1>
 
-<a href="">CLICK HERE to view the app</a>
+<a href="https://warm-fjord-40981.herokuapp.com/">CLICK HERE to view the app</a>
 
 <h1>Development / Functionality</h1>
 <ul>
@@ -35,7 +35,7 @@
 </ul>
 
 <h2>Planning</h2>
-<!-- <img src="/Wireframe.png" alt="wireframe" style="height:500px; width:700px;"/> -->
+<!-- <img src="/wireframe.png" alt="wireframe" style="height:500px; width:700px;"/> -->
 <h2>Problems</h2>
 <ul>
     <li>Apply all searched information to website</li>

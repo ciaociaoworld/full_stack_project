@@ -4,11 +4,11 @@
         <button>Logout</button>
     </form>
 
-    <a href="/fish/new">Add today's catch</a>
+    <a href="/fish/new">Add today catch</a>
 
     <form action="/suburb">
     <input type="text" name="suburb"> 
-    <button>Search</button>
+    <button>search</button>
     </form>
 
 <% end %>
