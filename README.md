@@ -5,8 +5,8 @@
 <h1>Development / Functionality</h1>
 <ul>
     <p>This app's main idea is to help fishmans to sell their extra catches.</p>
-    <p>Registed fishman could update their location, descritpion and price of today's catches and contact details.</p>
-    <p>Vistors could view their catches and get fishman's contact details.</p>
+    <p>Registed fishman could update their location, descritpion of today's catches and contact details.</p>
+    <p>Everyone could view their catches and get fishman's contact details.</p>
     <li>CRUD function</li>
     <li>Sign up and log in function</li>
     <li>Search function</li>
@@ -35,16 +35,31 @@
 </ul>
 
 <h2>Planning</h2>
-<!-- <img src="/wireframe.png" alt="wireframe" style="height:500px; width:700px;"/> -->
+<img src="/wireframe.png" alt="wireframe" style="height:500px; width:700px;"/>
 <h2>Problems</h2>
 <ul>
     <li>Apply all searched information to website</li>
-    <li>Add searched movie to favorite list</li>
-    <li>Editable profile</li>
-    <li>Add comments</li>
-    <li>Add like</li>
+    <li>Message function</li>
+    <li>Everyone's profile will be Accessible</li>
+    <li>Adding comments for each post</li>
+    <li>Adding like for each post</li>
+    <li>Not giving athorities to every user.</li>
+    <li>Better styling</li>
 </ul>
 <h3>Lessons</h3>
+<p>Don't waste time on searching accessible project. Prepare it as early as possible</p>
+<p>Communication with mentor is necessary, ask their opinions as early as I can</p>
+
+<h3>Future Improvement</h3>
+<ul>
+    <li>Comment</li>
+    <li>Like</li>
+    <li>Message</li>
+    <li>Follower</li>
+    <li>Viewable profile</li>
+    <li>Authority problem</li>
+</ul>
+
 
 
 

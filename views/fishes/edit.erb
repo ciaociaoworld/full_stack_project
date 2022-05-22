@@ -1,0 +1,19 @@
+<h1>Updata Your Catch</h1>
+
+<form action="/fishes/<%= fishes['id'] %>" method="POST">
+    <input type="hidden" name="_method" value="put">
+
+    <label for="">Title: </label>
+    <input type="text" name="title" value="<%= fishes['title'] %>">
+
+    <label for="">Image URL: </label>
+    <input type="text" name="image_url" value="<%= fishes['image_url'] %>">
+
+    <label for="">Content: </label>
+    <input type="text" name="content" value="<%= fishes['content'] %>">
+
+    <label for="">Trade Location: </label>
+    <input type="text" name="trade_location" value="<%= fishes['trade_location'] %>">
+
+    <button>Update</button>
+</form>

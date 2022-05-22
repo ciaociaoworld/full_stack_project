@@ -1,7 +1,76 @@
-<h1>Catch of the day</h1>
+<% if logged_in? %>
+    
+    <div class="login_header">
+        <h2>Logged as <%= current_user['name'] %></h2>
+        <a href="/fishes/new">Add Your Catch</a>
+
+        <form action="/sessions" method="POST">
+            <input type="hidden" name="_method" value="delete">
+            
+            <button>Logout</button>
+        </form>
+    </div>
+    <section class="login_container">
+        <% fish_post.each do |post| %>
+            <p>----------------------------------------</p>
+            <h2><%= post['title'] %></h2>
+            <p><%= post['trade_location'] %></p>
+
+            <a href="/fishes/<%= post['id'] %>/edit">Edit</a>
+
+            <form class="delete_button" action="/fishes/<%= post['id'] %>" method="POST">
+                <input type="hidden" name="_method" value="delete">
+                
+                <button>Delete</button>
+            </form>
+            
+            <img class="post_img" src="<%= post['image_url'] %>" alt="">
+            <p><%= post['content'] %></p>
+            <p>----------------------------------------</p>
+        <% end %>
+    
+        <% comment_info.each do |content| %>
+            <p><%= content['name'] %>: <%= content['comment'] %></p>
+            
+            <form class="comment_delete_button" action="/delete_comment/<%= content['id'] %>" method="POST">
+            <input type="hidden" name="_method" value="delete">
+            
+            <button>Delete</button>
+            </form>
+        <% end %>
+
+        <form action="/create_comment/<%= current_user['name'] %>" method="POST">
+            <textarea name="comment" placeholder="Add Your Comments"></textarea>
+            <%# <input type="hidden" name="comment"> %>
+            
+            <button>Send</button>
+        </form>
+    </section>
+<% else %>
+    <header>
+        <h1>Catch of the day</h1>
+    </header>
+
+    <section class="grid_container">
+        <div class="about_us">
+            <h3>About Us</h3>
+            <p>Catch of the day is a NFP website for fishman who want to sell their today's catches and also for everyone who want to buy fresh fishes. </p>
+        </div>
+
+        <div class="log_in"> 
+        <h3>Sign in</h3>
+        <form class="homepage_form" action="/sessions" method = "post">
+            <input type="text" name = "email" placeholder="Email Address"> 
+
+            <input type="password" name = "password" placeholder="Password">
+
+            <button>Login</button>
+        </form>
+
+        <h3>Join us!</h3>
+        <a href="/sign_up">Sign Up</a>
+        </div>
+    </section>
+<% end %>
 
 
-<form action="/sessions" method="POST">
-    <input type="hidden" name="_method" value="delete">
-    <button>Logout</button>
-</form>
