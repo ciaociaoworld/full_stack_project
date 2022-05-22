@@ -4,4 +4,4 @@ def run_sql(sql, params = [])
     results = db.exec_params(sql, params)
     db.close
     results
-  end 
+end 

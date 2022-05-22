@@ -1,7 +1,7 @@
 <h1>Catch of the day</h1>
 
 <a href="https://warm-fjord-40981.herokuapp.com/">CLICK HERE to view the app</a>
-
+git 
 <h1>Development / Functionality</h1>
 <ul>
     <p>This app's main idea is to help fishmans to sell their extra catches.</p>
