@@ -4,9 +4,9 @@
 git 
 <h1>Development / Functionality</h1>
 <ul>
-    <p>This app's main idea is to help fishmans to sell their extra catches.</p>
+    <p>This app's main idea is to help fishmans to show their catches.</p>
     <p>Registed fishman could update their location, descritpion of today's catches and contact details.</p>
-    <p>Everyone could view their catches and get fishman's contact details.</p>
+    <p>Everyone could view others catches and get fishman's contact details.</p>
     <li>CRUD function</li>
     <li>Sign up and log in function</li>
     <li>Search function</li>
